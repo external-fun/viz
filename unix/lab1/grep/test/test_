@@ -1,0 +1,14 @@
+{
+  if (sqrt(X)+sqrt(Y) < sqrt(Z))
+  {
+    printf("Good\n");
+  }
+  elif (sqrt(X) > sqrt(Z))
+  {
+    printf("bad\n");
+  }
+  else
+  {
+
+  }
+}

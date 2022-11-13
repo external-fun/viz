@@ -1,0 +1,15 @@
+def(X) {
+  if (X < 0)
+  {
+    return;
+  }
+
+  if (eq(X, nil))
+  {
+    exit(1);
+  }
+
+  int r = 0;
+  for (; r*r < X; r++);
+  return r;
+}
