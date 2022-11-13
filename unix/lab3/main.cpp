@@ -141,9 +141,7 @@ public:
     std::string input;
     for (; !gWasTerminated.load() ;) 
     {
-      std::cin >> input;
-      std::cin.ignore();
-
+      getline(std::cin, input);
       if (input == "exit")
       {
         return;
